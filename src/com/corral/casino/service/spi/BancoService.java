@@ -13,6 +13,6 @@ public interface BancoService {
 
     Banco update(Banco banco);
 
-    Banco asociarTarjeta (Banco banco, String tarjeta);
+    Banco asociarTarjeta(Banco banco, String tarjeta);
 
 }

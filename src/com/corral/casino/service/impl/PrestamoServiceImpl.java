@@ -1,8 +1,6 @@
 package com.corral.casino.service.impl;
 
-import com.corral.casino.dao.impl.MovimientoDAOImpl;
 import com.corral.casino.dao.impl.PrestamoDAOImpl;
-import com.corral.casino.dao.spi.MovimientoDAO;
 import com.corral.casino.dao.spi.PrestamoDAO;
 import com.corral.casino.dao.utils.ConnectionManager;
 import com.corral.casino.dao.utils.JDBCUtils;
@@ -16,7 +14,6 @@ import org.apache.logging.log4j.Logger;
 
 import java.sql.Connection;
 import java.sql.SQLException;
-import java.util.Date;
 import java.util.List;
 
 public class PrestamoServiceImpl implements PrestamoService {

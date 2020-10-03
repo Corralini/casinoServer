@@ -7,7 +7,6 @@ import com.corral.casino.dao.utils.JDBCUtils;
 import com.corral.casino.exceptions.CasinoException;
 import com.corral.casino.exceptions.Codes;
 import com.corral.casino.models.Mesa;
-import com.corral.casino.models.Movimiento;
 import com.corral.casino.models.criteria.MesaCriteria;
 import com.corral.casino.service.spi.MesaService;
 import org.apache.logging.log4j.LogManager;

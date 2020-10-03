@@ -5,6 +5,9 @@ public class Mesa extends AbstractValueObject {
     private Integer idJuego;
     private String mesa;
 
+    public Mesa() {
+    }
+
     public Integer getId() {
         return id;
     }
@@ -27,8 +30,5 @@ public class Mesa extends AbstractValueObject {
 
     public void setMesa(String mesa) {
         this.mesa = mesa;
-    }
-
-    public Mesa() {
     }
 }

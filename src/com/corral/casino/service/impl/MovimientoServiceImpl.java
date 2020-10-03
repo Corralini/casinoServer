@@ -1,14 +1,11 @@
 package com.corral.casino.service.impl;
 
-import com.corral.casino.dao.impl.MesaDAOImpl;
 import com.corral.casino.dao.impl.MovimientoDAOImpl;
-import com.corral.casino.dao.spi.MesaDAO;
 import com.corral.casino.dao.spi.MovimientoDAO;
 import com.corral.casino.dao.utils.ConnectionManager;
 import com.corral.casino.dao.utils.JDBCUtils;
 import com.corral.casino.exceptions.CasinoException;
 import com.corral.casino.exceptions.Codes;
-import com.corral.casino.models.Mesa;
 import com.corral.casino.models.Movimiento;
 import com.corral.casino.models.criteria.MovimientoCriteria;
 import com.corral.casino.service.spi.MovimientoService;
@@ -17,7 +14,6 @@ import org.apache.logging.log4j.Logger;
 
 import java.sql.Connection;
 import java.sql.SQLException;
-import java.util.Date;
 import java.util.List;
 
 public class MovimientoServiceImpl implements MovimientoService {

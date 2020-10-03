@@ -6,7 +6,6 @@ import com.corral.casino.dao.utils.JDBCUtils;
 import com.corral.casino.exceptions.CasinoException;
 import com.corral.casino.exceptions.Codes;
 import com.corral.casino.models.Movimiento;
-import com.corral.casino.models.Usuario;
 import com.corral.casino.models.criteria.MovimientoCriteria;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;

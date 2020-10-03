@@ -1,8 +1,6 @@
 package com.corral.casino.dao.spi;
 
-import com.corral.casino.models.Juego;
 import com.corral.casino.models.Prestamo;
-import com.corral.casino.models.criteria.JuegoCriteria;
 import com.corral.casino.models.criteria.PrestamoCriteria;
 
 import java.sql.Connection;
@@ -12,7 +10,7 @@ public interface PrestamoDAO {
 
     Prestamo create(Connection connection, Prestamo prestamo);
 
-    List<Prestamo> findBy(Connection connection, PrestamoCriteria prestamoCriteria) ;
+    List<Prestamo> findBy(Connection connection, PrestamoCriteria prestamoCriteria);
 
     Prestamo update(Connection connection, Prestamo prestamo);
 

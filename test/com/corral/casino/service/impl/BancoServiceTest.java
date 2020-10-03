@@ -8,7 +8,7 @@ public class BancoServiceTest {
 
     private static BancoService bancoService = new BancoServiceImpl();
 
-    private static void asociarTarjeta (Integer bancoId) {
+    private static void asociarTarjeta(Integer bancoId) {
         BancoCriteria bancoCriteria = new BancoCriteria();
         bancoCriteria.setId(bancoId);
         Banco banco = bancoService.findBy(bancoCriteria).get(0);
