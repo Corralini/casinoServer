@@ -79,7 +79,9 @@ public class BancoServiceImpl implements BancoService {
         if (banco != null && banco.getId() != null) {
             banco.setTarjeta(tarjeta);
             return update(banco);
+        } else {
+            throw new CasinoException(Codes.MANDATORY_PARAMS);
         }
-        return null;
+
     }
 }
