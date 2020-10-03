@@ -10,11 +10,11 @@ public class DateUtils {
     private static final String DATE_PATTERN = "dd/MM/yyyy";
     private static DateFormat dateFormat = new SimpleDateFormat(DATE_PATTERN);
 
-    public static Date stringToDate (String date) throws ParseException {
+    public static Date stringToDate(String date) throws ParseException {
         return dateFormat.parse(date);
     }
 
-    public static String dateToString (Date date) {
+    public static String dateToString(Date date) {
         return dateFormat.format(date);
     }
 

@@ -15,7 +15,6 @@ import com.google.gson.reflect.TypeToken;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class UsuarioController implements Controller {
@@ -126,7 +125,6 @@ public class UsuarioController implements Controller {
         String nombre = entrada.has(Constants.NOMBRE) ? entrada.get(Constants.NOMBRE).getAsString() : null;
         String apellido1 = entrada.has(Constants.APELLIDO1) ? entrada.get(Constants.APELLIDO1).getAsString() : null;
         String apellido2 = entrada.has(Constants.APELLIDO2) ? entrada.get(Constants.APELLIDO2).getAsString() : null;
-        ;
         String usuario = entrada.has(Constants.USUARIO) ? entrada.get(Constants.USUARIO).getAsString() : null;
         String psswd = entrada.has(Constants.PSSWD) ? entrada.get(Constants.PSSWD).getAsString() : null;
         String fechaSub = entrada.has(Constants.FECHA_SUB) ? entrada.get(Constants.FECHA_SUB).getAsString() : null;

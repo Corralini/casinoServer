@@ -2,7 +2,6 @@ package com.corral.casino.server.controller.cashbluff;
 
 import com.corral.casino.exceptions.CasinoException;
 import com.corral.casino.exceptions.Codes;
-import com.corral.casino.models.Banco;
 import com.corral.casino.models.Movimiento;
 import com.corral.casino.models.criteria.MovimientoCriteria;
 import com.corral.casino.server.controller.Controller;

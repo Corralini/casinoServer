@@ -18,7 +18,7 @@ public class ErrorUtils {
         Codes error;
         if (e instanceof CasinoException) {
             logger.warn("Exception: " + ((CasinoException) e).cod.logMessage);
-            error  = ((CasinoException) e).cod;
+            error = ((CasinoException) e).cod;
         } else {
             logger.warn("Exception: " + e.getMessage(), e);
             error = Codes.ERROR_GENERAL;

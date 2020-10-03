@@ -3,7 +3,6 @@ package com.corral.casino.server.controller.pokertavern;
 import com.corral.casino.exceptions.CasinoException;
 import com.corral.casino.exceptions.Codes;
 import com.corral.casino.models.Juego;
-import com.corral.casino.models.Mesa;
 import com.corral.casino.models.criteria.JuegoCriteria;
 import com.corral.casino.server.controller.Controller;
 import com.corral.casino.server.utils.Constants;

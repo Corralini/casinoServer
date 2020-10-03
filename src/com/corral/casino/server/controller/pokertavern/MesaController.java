@@ -113,7 +113,7 @@ public class MesaController implements Controller {
                 UsuarioCriteria usuarioCriteria = new UsuarioCriteria();
                 usuarioCriteria.setIdMesa(id);
                 List<Usuario> usuarioList = usuarioService.findBy(usuarioCriteria);
-                for (Usuario usuario: usuarioList) {
+                for (Usuario usuario : usuarioList) {
                     usuario.setIdMesa(null);
                     usuarioService.update(usuario);
                 }
